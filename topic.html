@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="CSS/MainStyle.css" rel="stylesheet" type="text/css" />
+  </head>
+    <title>Topic</title>
+  <body>
+    <div class="sticky-wrap">
+      <header role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+        <div class="sticky-wrap">
+        <nav aria-label="Site menu" class="nav nav--primary">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a class="title" href="/">
+                Team Profile
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="title" href="/">
+                Tools
+              </a>
+            </li>          
+            <li class="nav__item">
+              <a class="title" href="/">
+               Project Description
+              </a>
+            </li>          
+            <li class="nav__item">
+              <a class="title" href="/">
+                Career Plans
+              </a>
+            </li>
+          </ul>
+        </nav>
+          </div>
+      </header>
+           </div> 
+        <div class="row">
+        <div class="column">
+            <div class="exp">
+                <a href = "index.html"><img src="img/logo.png" alt="logo.png" width="220 " height="185"></a>
+            </div>
+        </div>
+        <div class="column" >
+ 
+            <div class="exp">         
+            <h1>Team Profile</h1>
+            <ul>
+                <li><a href="https://sharifayazi.github.io/A1/" target="_blank">Sharif Ayazi - S3815095</a></li>
+                <li><a href="https://chrisblackspace.github.io/introductiontoIT/" target="_blank">Cristopher Ariel Castro Inostroza - S3923904</a></li>
+			  		<li><a href="https://bundyman8.github.io/NewRepo/" target="_blank">Steven Pigatto - S3851506</a>
+				  	</li>
+		  			<li><a href="https://nicole-a1.github.io/Intro_to_IT/ " target="_blank">Nicole Attard - S3924819</a>
+				  	</li>
+				  	<li><a href="https://michael-sy72.github.io/ITproject/" target="_blank">Michael Sy - S3921688</a>
+				  	</li>
+				  	<li><a href="https://s3925389.github.io/Intro-to-IT/ " target="_blank">Theodore Haluska - S3925389</a></li>
+			  	</ul>
+            </div>
+            
+        </div>
+    </div>
+         
+<div class="mainnav">
+  <ul>
+    <li><a href="index.html" class="mybtn">Team Profile</a></li>
+    <li><a href="groupprocesses.html" class="mybtn">Group Processes</a></li>
+    <li><a href="careerplans.html" class="mybtn">Career Plans</a></li>
+    <li class="dropdown" class="mybtn">
+    <a class="mybtn">Project Description</a>
+    <div class="dropdown-content">
+      <a href="topic.html" class="mybtn">Topic</a>
+      <a href="motivation.html" class="mybtn">Motivation</a>
+      <a href="Landscape.html" class="mybtn">Landscape</a>
+    </div>
+    </li>
+      <li><a href="Detaileddescription.html" class="mybtn">Detailed Description</a></li>
+      <li><a href="Skills.html" class="mybtn">Skills and Jobs</a></li>
+      <li><a href="groupreflection.html" class="mybtn">Group Refelection</a></li>
+     <li>
+        <form action="#">
+            <input type="text" placeholder="Search.." name="search">
+        </form>
+    </li>
+  </ul>
+</div>     
+       
+          
+          
+<div class="content">
+  <h2>Topic</h2>
+    <p>The concept of a chatbot was based on a question posed by Alan Turing: would a person be able to distinguish between conversation with a human or a computer program? This simple question has led to research into areas such as natural language processing, machine learning and artificial intelligence, eventually culminating in the development of the first chatbot, ELIZA. As progress has been made in each of these areas, the technology has now progressed to such a state that chatbots are now able to perform more sophisticated functions, and is now a widespread piece of technology that has evolved from primarily performing text‑based interactions with humans to the creation of smart devices such as Alexa and Google Assistant that takes input from and responds to speech.</p><br>
+    <p>A chatbot is extremely versatile, so that one can be adapted for any type of industry. For this project, we will attempt to create a simple chatbot capable of receiving prompts from a user and supplying the relevant information in response. We will attempt to link this chatbot to a website that contains personal profiles on each of the team members involved in the project, as well as an outline of the process that was used to create the actual chatbot. Given the tone that we propose to give the chatbot in its responses, as an added feature, we will attempt to create a joke function where users are able to request hearing a joke, such that if the option is chosen, a joke is offered and the users are able to respond with an answer. </p>
+</div>
+          
+       
+          
+
+<div class="footer">
+    <p>
+        <a href="#">Skills and Jobs | </a>
+        <a href="#">Group Reflection | </a>
+        <a href="#">Career Plans | </a>
+        <a href="#">Tools | </a>
+        <a href="#">Motivation</a>
+
+    </p>
+      
+</div>
+     
+          
+          
+          
+  
+        
+
+
+  <script>
+window.onscroll = function() {myFunction()};
+
+var mainnav = document.getElementById("mainnav");
+var sticky = mainnav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    mainnav.classList.add("sticky")
+  } else {
+    mainnav.classList.remove("sticky");
+  }
+}
+</script>
+      
+  </body>
+</html>
