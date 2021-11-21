@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="CSS/MainStyle.css" rel="stylesheet" type="text/css" />
+  </head>
+    <title>Scop and Limites</title>
+  <body>
+    <div class="sticky-wrap">
+      <header role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+         <div class="sticky-wrap">
+            <nav aria-label="Site menu" class="nav nav--primary">
+                <ul class="nav__items">
+                    <li class="nav__item"><a class="title" href="personalinfo.html">Team Profile</a></li>
+                    <li class="nav__item"><a class="title" href="tools.html">Tools</a></li>          
+                    <li class="nav__item"><a class="title" href="Skills.html">Skills and Jobs</a></li>          
+                    <li class="nav__item"><a class="title" href="careerplans.html">Career Plans</a></li>
+                </ul>
+            </nav>
+        </div>
+      </header>
+           </div> 
+        <div class="row">
+        <div class="column">
+            <div class="exp">
+                <a href = "personalinfo.html"><img src="img/logo.png" alt="logo.png" width="220 " height="185"></a>
+            </div>
+        </div>
+        <div class="column" >
+ 
+            <div class="exp">         
+            <h1>Team Profile</h1>
+            <ul>
+                <li><a href="https://sharifayazi.github.io/A1/" target="_blank">Sharif Ayazi - S3815095</a></li>
+                <li><a href="https://chrisblackspace.github.io/introductiontoIT/" target="_blank">Cristopher Ariel Castro Inostroza - S3923904</a></li>
+			  		<li><a href="https://bundyman8.github.io/NewRepo/" target="_blank">Steven Pigatto - S3851506</a>
+				  	</li>
+		  			<li><a href="https://nicole-a1.github.io/Intro_to_IT/ " target="_blank">Nicole Attard - S3924819</a>
+				  	</li>
+				  	<li><a href="https://michael-sy72.github.io/ITproject/" target="_blank">Michael Sy - S3921688</a>
+				  	</li>
+				  	<li><a href="https://s3925389.github.io/Intro-to-IT/ " target="_blank">Theodore Haluska - S3925389</a></li>
+			  	</ul>
+            </div>
+        </div>
+    </div>
+         
+          
+<div class="mainnav">
+  <ul>  
+    <li class="dropdown" class="mybtn">
+        <a class="mybtn">Team Profile</a>
+    <div class="dropdown-content">
+        <a href="personalinfo.html" class="mybtn">Personal Profile</a>
+        <a href="groupprocesses.html" class="mybtn">Group Proccess</a>
+        <a href="careerplans.html" class="mybtn">Career Plans</a>
+    </div>
+    </li>
+    <li><a href="tools.html" class="mybtn">Tools</a></li>
+    <li class="dropdown" class="mybtn">
+    <a class="mybtn">Project Description</a>
+    <div class="dropdown-content">
+      <a href="topic.html" class="mybtn">Topic</a>
+      <a href="motivation.html" class="mybtn">Motivation</a>
+      <a href="Landscape.html" class="mybtn">Landscape</a>
+    </div>
+    </li>
+    <li class="dropdown" class="mybtn">
+        <a class="mybtn">Detailed Description</a>
+    <div class="dropdown-content">
+        <a href="aims.html" class="mybtn">Aims</a>
+        <a href="plannprogress.html" class="mybtn">Plans and Progress </a>
+        <a href="roles.html" class="mybtn">Roles</a>
+        <a href="scopnlimit.html" class="mybtn">Scope and Limits</a>
+        <a href="toolsntech.html" class="mybtn">Tools and Tech</a>
+        <a href="testing.html" class="mybtn">Testing</a>
+        <a href="timeframe.html" class="mybtn">Timeframe</a>
+        <a href="risks.html" class="mybtn">Risks</a>
+        <a href="groupcommunicationnproccess.html" class="mybtn">Group Communcation and Processes</a>
+    </div>
+    </li>
+      <li><a href="Skills.html" class="mybtn">Skills and Jobs</a></li>
+      <li><a href="groupreflection.html" class="mybtn">Group Refelection</a></li>
+      <li><a href="references.html" class="mybtn">Referances</a></li>
+     <li>
+        <form action="#">
+            <input type="text" placeholder="Search.." name="search">
+        </form>
+    </li>
+  </ul>
+</div>            
+       
+<div class="content">
+  <h1>Scope and Limits </h1><br>
+  <p>Following a group review and analysis of the original project plan, which upon reflection appeared lacking in specificity, given the time limits and negligible start-up funding, we have decided to scale back the project in terms of setting smaller and more defined goals staged in a progressive manner such that at the end of the first five-week sprint, we will have developed a chatbot that is able to receive specific input from a user limited to requests for information on either a team member or itself, or the request for a joke, recognise the intent of the user and respond appropriately by creating a chatbot using a combination of HTML, CSS, and JavaScript coding, Rasa NLU and Core training software and deep learning processes through Keras and TensorFlow. <br>Given the limited time available and given the basic IT skills that the team as a whole possesses at this point in time, we believe that we will be unable to host the chatbot on a cloud server such as AWS to enable individuals to interact with the chatbot through either a standalone application or integrated onto the group website. However, this is something that with further experimentation and experience, we hope to be able to achieve in the future.  <br>For this project, at this point our ultimate aim is to have created a chatbot that will return appropriate answers to questions in regards to team member profiles, a basic introduction to the chatbot itself or provide a joke with an answer when requested. </p>
+</div>
+<div class="footer">
+    <p>
+        <a href="Skills.html">Skills and Jobs | </a>
+        <a href="groupreflection.html">Group Reflection | </a>
+        <a href="careerplans.html">Career Plans | </a>
+        <a href="tools.html">Tools | </a>
+        <a href="motivation.html">Motivation</a>
+
+    </p>    
+</div>
+  <script>
+window.onscroll = function() {myFunction()};
+
+var mainnav = document.getElementById("mainnav");
+var sticky = mainnav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    mainnav.classList.add("sticky")
+  } else {
+    mainnav.classList.remove("sticky");
+  }
+}
+</script>
+      
+  </body>
+</html>
